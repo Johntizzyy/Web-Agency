@@ -1,0 +1,274 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(hero-bg.jpg);
+  background-repeat: no-repeat;
+  /* max-width: 200vh; */
+}
+
+.container {
+  height: 100vh;
+  width: 90%;
+  margin: 18px auto;
+  overflow: hidden;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: 800;
+  color: #fff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tiz {
+  color: #fd09a0;
+}
+
+.John:hover {
+  color: #fd09a0;
+}
+ul li {
+  display: inline;
+  margin-left: 80px;
+  font-size: 18px;
+  list-style-type: none;
+  color: #fff;
+}
+ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.welc-text {
+  background-image: url(hero-bg.jpg);
+  backdrop-filter: blur(500px);
+}
+.welc-text p {
+  color: #fff;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  /* margin-top: 2%; */
+  margin: 20px 0;
+}
+
+.welc-text p:nth-child(1) {
+  font-size: 40px;
+}
+.welc-text p:nth-child(2) {
+  font-size: 70px;
+  font-weight: 700;
+}
+.welc-text p:nth-child(3) {
+  font-size: 15px;
+}
+
+/* for the welcoming text*/
+
+.welc-text {
+  margin-top: 80px;
+}
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 45px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 5em;
+  margin-left: 45%;
+  border: none;
+  transition: all ease-in-out 1s;
+}
+
+#contact:hover {
+  color: #fff;
+  background: none;
+  border: 2px solid #efefef;
+}
+
+#circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+#cirle {
+  height: 12px;
+  width: 12px;
+  border-radius: 20px;
+  /* background-color: #fff; */
+  border: 3px solid #fff;
+  margin-left: 8px;
+}
+
+#cirle:hover {
+  background-color: #0107ad;
+}
+
+.AboutCont {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.about {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+.about h1 {
+  font-size: 42px;
+  color: #000;
+  font-weight: 700;
+}
+.aboutUs p {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+}
+
+.about #readMore {
+  margin-top: 35px;
+  padding: 14px 40px;
+  /* max-width: fit-content; */
+  max-width: 200px;
+  border: none;
+  background-color: #332f2f;
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: all 1s;
+}
+
+.about #readMore:hover {
+  border: 2px solid #332f2f;
+  background: none;
+  color: #332f2f;
+}
+
+#whatWeDo {
+  height: 100vh;
+  background: #ffffff;
+}
+
+#whatWeDo .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  background: #fff;
+  font-size: 10px;
+}
+
+/* #wwd {
+    color: red;
+    font-size: 10px;
+} */
+#whatWeDo .content h1 {
+  color: #000;
+  font-size: 40px;
+}
+
+.portfolio {
+  background-color: #fff;
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+}
+
+.portfolio h1 {
+  color: #000;
+  font-weight: 800;
+}
+
+.portfolio p {
+  margin-top: -10px;
+  word-spacing: 1px;
+  letter-spacing: normal;
+}
+
+.creative-work {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: auto;
+}
+
+.creative-work .box {
+  min-width: 300px;
+  display: flex;
+  /* border: 2px solid red; */
+  object-fit: fill;
+}
+nav-img img{
+  color: #000;
+}
+/* .creative-work img:nth-child(2),.creative-work img:nth-child(3){
+  width: 43.5%;
+}
+
+.creative-work img:nth-child(1),.creative-work img:nth-child(4){
+  width: 56.5%;
+} */
+
+.creative-work .b-1,
+.creative-work .b-3 {
+  width: 55%;
+  height: 100%;
+  object-fit: contain;
+}
+.creative-work .b-2,
+.creative-work .b-3 {
+  width: 45%;
+  object-fit: cover;
+}
+
+/* #whatWeDo .content h1::before{
+    content: ' ';
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    color: red;
+} */
+
+/* #whatWeDo .content p {
+  margin-top: -5px;
+  color: #000;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.skills-icons {
+  padding: 0;
+  /* margin-right: -500px;
+  display: flex;
+}
+.skills-icons :nth-child(odd) {
+  border: 1px solid #000;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  border-radius: 50%;
+} */
